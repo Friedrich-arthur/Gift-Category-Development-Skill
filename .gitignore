@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+work/
+.scratch/
+*.log
+*.bundle
+quality/
+history/
+archive/
+raw/

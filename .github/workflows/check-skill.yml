@@ -1,0 +1,35 @@
+name: Validate and package text skill
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ["3.11", "3.13"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -B -X utf8 tools/build_install_guide.py --check
+      - run: python -B -X utf8 -m unittest discover -s tests -v
+      - run: python -B -X utf8 tools/check_skill.py --build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gift-development-service-${{ matrix.os }}-py${{ matrix.python }}
+          path: |
+            dist/gift-development-service.zip
+            dist/gift-development-service.manifest.json
+          if-no-files-found: error

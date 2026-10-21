@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="840" viewBox="0 0 1600 840" role="img" aria-labelledby="title desc">
+<title id="title">有产品，下一款礼品做什么？</title>
+<desc id="desc">海外礼品经营判断 Skill。用自己的产品与工艺，和 AI 聊清为谁做、改哪里、赶不赶得上。0.6.0。</desc>
+<defs>
+<linearGradient id="front" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff9945"/><stop offset="1" stop-color="#ef6f22"/></linearGradient>
+<linearGradient id="side" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#dc5d21"/><stop offset="1" stop-color="#a84221"/></linearGradient>
+<linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffc076"/><stop offset="1" stop-color="#ff8c38"/></linearGradient>
+<linearGradient id="ribbon" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff6df"/><stop offset="1" stop-color="#e5d8bb"/></linearGradient>
+</defs>
+<rect width="1600" height="840" fill="#171512"/>
+<g font-family="Microsoft YaHei, PingFang SC, sans-serif">
+<text x="90" y="92" font-size="25" font-weight="700" fill="#f6f1e7">✳ 海外礼品经营判断 Skill</text>
+<rect x="90" y="156" width="162" height="40" rx="6" fill="#302920"/><text x="108" y="183" font-size="20" fill="#ff9945">0.6.0</text>
+<g font-size="104" font-weight="900" letter-spacing="-6"><text x="82" y="315" fill="#f6f1e7">有产品，</text><text x="82" y="449" fill="#f6f1e7">下一款礼品</text><text x="82" y="583" fill="#ff9945">做什么？</text></g>
+<text x="90" y="662" fill="#c0b9ad" font-size="27">用自己的产品与工艺，和 AI 聊清</text>
+<text x="90" y="708" fill="#f6f1e7" font-size="27">为谁做、改哪里、赶不赶得上。</text>
+<path d="M90 766h1420" stroke="#4b4238"/>
+<text x="90" y="805" fill="#c0b9ad" font-size="18">给礼品工厂、业务员和跨境卖家</text><text x="1510" y="805" text-anchor="end" fill="#c0b9ad" font-size="18">GIFT DEVELOPMENT SERVICE</text>
+</g>
+<g transform="translate(863 130) scale(1.22)">
+<g fill="none" stroke="#4b4238"><path d="M20 350 260 469 501 350M20 324l240 119 241-119M49 380V170M481 375V147"/></g>
+<path fill="url(#top)" d="m103 249 166-81 166 81-166 84z"/>
+<path fill="url(#front)" d="m103 249 166 84v122L103 370z"/>
+<path fill="url(#side)" d="m269 333 166-84v121l-166 85z"/>
+<path fill="url(#ribbon)" d="m169 282 35 18v122l-35-18zM336 299l35-18v123l-35 18z"/>
+<path fill="none" stroke="#a84221" stroke-width="2" d="m103 258 166 84 166-84"/>
+<g transform="translate(0 -35) rotate(-10 269 190)">
+<path fill="url(#top)" d="m87 193 182-90 182 90-182 91z"/>
+<path fill="url(#front)" d="m87 193 182 91v28L87 221z"/>
+<path fill="url(#side)" d="m269 284 182-91v28l-182 91z"/>
+<path fill="url(#ribbon)" d="m158 158 36-18 182 90-36 18zM194 248l36 18 182-90-36-18zM158 229l36 18v28l-36-18zM340 248l36-18v28l-36 18z"/>
+<path fill="url(#ribbon)" d="M267 188c-83-2-111-44-89-62 22-17 67 15 89 62Zm0 0c27-82 78-88 86-64 9 27-42 55-86 64Z"/>
+<path fill="none" stroke="#c5b99b" stroke-width="2" d="M265 184c-32-34-60-47-69-45m75 45c26-34 47-48 60-48"/>
+</g>
+<text transform="matrix(.9 .45 0 1 219 370)" font-family="Microsoft YaHei, sans-serif" font-size="92" font-weight="900" fill="#171512">?</text>
+<g font-family="Microsoft YaHei, sans-serif" font-size="18" fill="#c0b9ad"><text x="13" y="83">为谁做？</text><text x="396" y="96">改哪里？</text><text x="365" y="475">赶得上吗？</text></g>
+<path fill="none" stroke="#4b4238" d="M98 95H23v26M422 112h62v23"/>
+</g>
+</svg>
